@@ -1,4 +1,4 @@
-export const topicData = [
+export const contentData = [
   {
     name: "Fun",
     question: "Which type of “Fun” content do you want to create?",

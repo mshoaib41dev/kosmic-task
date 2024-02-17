@@ -1,12 +1,10 @@
 "use client";
 import "./globals.css";
 import { ChangeEvent, useState } from "react";
-import { darkTheme, lightTheme } from "./theme";
+import { darkTheme, lightTheme } from "../theme";
 import {
   ThemeProvider,
   CssBaseline,
-  Switch,
-  FormControlLabel,
 } from "@mui/material";
 import Header from "@/components/Header";
 import { Poppins } from "next/font/google";

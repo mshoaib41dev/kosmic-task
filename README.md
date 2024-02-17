@@ -1,4 +1,4 @@
-# Kosmic.AI task
+# Kosmic Task
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -36,10 +36,7 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-
 ## Additional Information
-- This project have dark & light theme
-- This project purely on mui components it means no html components
-- This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Poppins, a custom Google Font.
+- This application incorporates both dark and light themes.
+- It exclusively relies on Material-UI (MUI) components, omitting the use of traditional HTML components.
+- The project leverages [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) for the automatic optimization and loading of Poppins, a custom Google Font.
