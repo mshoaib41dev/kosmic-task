@@ -1,5 +1,9 @@
-"use client";
-import { createTheme, responsiveFontSizes } from "@mui/material/styles";
+import { TypeBackground, createTheme, responsiveFontSizes } from "@mui/material/styles";
+
+interface CustomTypeBackground extends TypeBackground {
+  input: string;
+  dropdown: string;
+}
 
 export const lightTheme = responsiveFontSizes(
   createTheme({
@@ -21,7 +25,7 @@ export const lightTheme = responsiveFontSizes(
       },
       divider: "#D0CFD1",
 
-      background: { default: "#FFFFFF", paper: "#f5f5f5", input: '#f5f5f5', dropdown: '#f5f5f5' },
+      background: { default: "#FFFFFF", paper: "#f5f5f5", input: '#f5f5f5', dropdown: '#f5f5f5' } as CustomTypeBackground,
     },
     breakpoints: {
       values: {
@@ -68,7 +72,7 @@ export const darkTheme = responsiveFontSizes(
       },
       divider: "#3A3940",
 
-      background: { default: "#12111A", paper: "#09090D", input: 'rgba(58, 57, 64, 1)', dropdown: 'rgba(58, 57, 64, 0.5)' },
+      background: { default: "#12111A", paper: "#09090D", input: 'rgba(58, 57, 64, 1)', dropdown: 'rgba(58, 57, 64, 0.5)' } as CustomTypeBackground,
     },
     breakpoints: {
       values: {

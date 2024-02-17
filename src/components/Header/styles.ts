@@ -1,4 +1,3 @@
-import { StyleType } from "@/types";
 import { Theme } from "@mui/material";
 interface iProps {
   theme: Theme;
@@ -6,7 +5,7 @@ interface iProps {
 
 export const useHeaderStyle = ({ theme }: iProps) => {
   const { palette } = theme;
-  const styles: StyleType = {
+  const styles = {
     headerContainer: {
       p: { xs: "20px", md: "25px" },
       backgroundColor: palette.background.paper,
